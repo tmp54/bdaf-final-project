@@ -1,0 +1,5 @@
+export * from './getName'
+export * from './getText'
+export * from './register'
+export * from './setName'
+export * from './setText'
