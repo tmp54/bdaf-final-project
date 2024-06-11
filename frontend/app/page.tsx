@@ -68,9 +68,7 @@ export default function Home() {
 
         <div className='flex h-[40px] justify-center'>
           {name !== '' && owner === zeroAddress && (
-            <Button onClick={handleRegister} className='hidden'>
-              Register
-            </Button>
+            <Button onClick={handleRegister}>Register</Button>
           )}
 
           {(owner || zeroAddress) !== zeroAddress && isOwner && (
