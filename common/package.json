@@ -1,0 +1,8 @@
+{
+  "name": "common",
+  "private": true,
+  "exports": "./index.ts",
+  "dependencies": {
+    "viem": "^2.13.7"
+  }
+}

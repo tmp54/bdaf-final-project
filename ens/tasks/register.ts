@@ -1,5 +1,6 @@
 import { task } from 'hardhat/config'
-import { labelHash, deployAndSetupContracts } from '../utils'
+import { deployAndSetupContracts } from '../utils/deploy'
+import { labelHash } from 'common'
 
 task('ens:register', 'Register a name with FIFSRegistrar')
   .addParam('name', 'Name to register. Note: `<name>.eth`')

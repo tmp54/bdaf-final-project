@@ -5,7 +5,7 @@ import { bytesToHex, getAddress, zeroHash } from 'viem'
 import ENSRegistryModule from '../ignition/modules/ENSRegistry'
 import PublicResolverModule from '../ignition/modules/PublicResolver'
 import FIFSRegistrarModule from '../ignition/modules/FIFSRegistrar'
-import { labelHash, nodeHash } from '../utils'
+import { labelHash, nodeHash } from 'common'
 
 const ROOT_NODE = zeroHash
 

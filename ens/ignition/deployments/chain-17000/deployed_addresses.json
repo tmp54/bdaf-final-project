@@ -1,0 +1,7 @@
+{
+  "ENSRegistry#ENSRegistry": "0x291513d6b987b055F1756FF8c9b9C4a7b5B5fA40",
+  "PublicResolver#PublicResolver": "0xff56667cA50b88acD526eB22db71bbDeEc70A2E5",
+  "FIFSRegistrar#FIFSRegistrar": "0xde1D8A0Db97F7184f61c5A1B5d54228334D1f8AC",
+  "ReverseRegistrar#ReverseRegistrar": "0x63220518a48BcC3289F2e3BCb662FE6dA2Dc0f97",
+  "Root#Root": "0x5442e7AF30202FFc28b41be0F2C27D7283b31a02"
+}

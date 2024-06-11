@@ -1,5 +1,5 @@
 import { normalize } from 'viem/ens'
-import { labelHash, nodeHash } from '../utils'
+import { labelHash, nodeHash } from 'common'
 
 const name = process.argv[2]
 

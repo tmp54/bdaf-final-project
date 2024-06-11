@@ -1,5 +1,5 @@
 import { task } from 'hardhat/config'
-import { deployAndSetupContracts } from '../utils'
+import { deployAndSetupContracts } from '../utils/deploy'
 
 task('ens:get-name', 'Get the name from an address')
   .addParam('address', 'Account address')

@@ -1,5 +1,6 @@
 import { task } from 'hardhat/config'
-import { deployAndSetupContracts, nodeHash } from '../utils'
+import { deployAndSetupContracts } from '../utils/deploy'
+import { nodeHash } from 'common'
 
 task('ens:set-text', 'Set a text record to a node')
   .addParam('node', 'Node to set. Note: provide original name, i.e. `*.eth`')

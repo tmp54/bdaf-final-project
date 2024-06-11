@@ -1,5 +1,5 @@
 import hre from 'hardhat'
-import { deployAndSetupContracts } from '../utils'
+import { deployAndSetupContracts } from '../utils/deploy'
 
 const main = deployAndSetupContracts
 

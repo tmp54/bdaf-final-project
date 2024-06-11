@@ -1,3 +1,5 @@
 packages:
   - 'ens'
   - 'frontend'
+  - 'poc'
+  - 'common'

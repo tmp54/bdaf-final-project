@@ -1,5 +1,5 @@
 import { task } from 'hardhat/config'
-import { deployAndSetupContracts } from '../utils'
+import { deployAndSetupContracts } from '../utils/deploy'
 
 task('ens:reverse-register', 'Reverse register a name with ReverseRegistrar')
   .addParam('address', 'Address to register to')

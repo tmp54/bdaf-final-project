@@ -5,7 +5,7 @@ import FIFSRegistrarModule from '../ignition/modules/FIFSRegistrar'
 import ReverseRegistrarModule from '../ignition/modules/ReverseRegistrar'
 import RootModule from '../ignition/modules/Root'
 import { zeroHash } from 'viem'
-import { labelHash, nodeHash } from './hash'
+import { labelHash, nodeHash } from 'common'
 
 const ROOT_NODE = zeroHash
 

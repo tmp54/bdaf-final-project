@@ -2,7 +2,7 @@ import { buildModule } from '@nomicfoundation/hardhat-ignition/modules'
 import ENSRegistryModule from './ENSRegistry'
 import FIFSRegistrarArtifact from '@ensdomains/ens-contracts/artifacts/contracts/registry/FIFSRegistrar.sol/FIFSRegistrar.json'
 import { fifsRegistrarAbi } from '../../wagmi/generated'
-import { nodeHash } from '../../utils'
+import { nodeHash } from 'common'
 
 const FIFS_REGISTRAR_ARTIFACT = {
   ...FIFSRegistrarArtifact,
